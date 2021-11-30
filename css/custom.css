@@ -1,0 +1,76 @@
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    left:0;
+    bottom: 0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.team .col-lg-4 {
+    padding-top: 6rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.section-divider{ 
+    margin: 10rem 0;
+}
+
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+} 
+
+
+@media (min-width: 1200px) {
+  .feature-heading {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 540px) {
+    .carouselImg {
+        display: none;
+    }
+    
+    .team {
+        margin-top: 2rem;
+    }
+}
+
+.footer-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color:#0e0d0d;
+}
+
